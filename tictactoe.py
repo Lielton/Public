@@ -160,7 +160,7 @@ while True:
             if isWinner(theBoard, computerLetter):
                 drawBoard(theBoard)
                 print('The computer has beaten you! You lose.')
-                gameisPlaying = False
+                gameIsPlaying = False
             else:
                 if isBoardFull(theBoard):
                     drawBoard(theBoard)
